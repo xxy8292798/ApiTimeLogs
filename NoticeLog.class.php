@@ -55,7 +55,7 @@ class NoticeLog
                 $vv   = $endData[$k];
                 $str .= '['.$k.'：'.ceil($vv-$v). 'ms] ';
             }
-        } 
+        }
         runtime_log("Notice/optimize", $str);
     }
 
